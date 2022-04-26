@@ -2,7 +2,7 @@ import javax.swing.JFrame;
 
 public class Dashboard {
 
-    public Dashboard(){
+    Dashboard(){
         
         JFrame frame = new JFrame("Dashbaord");
 
