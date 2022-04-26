@@ -32,7 +32,7 @@ public class SplashScreen implements MouseListener {
         nameofBusiness.addMouseListener(this);
 
         ProgressStatus = new JLabel("% Loading");
-        ProgressStatus.setBounds(230, 500, 200, 30);
+        ProgressStatus.setBounds(230, 480, 200, 30);
         ProgressStatus.setForeground(Color.WHITE);
         ProgressStatus.setFont(new Font(null, Font.BOLD, 20));
 
