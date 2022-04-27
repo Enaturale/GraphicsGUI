@@ -44,26 +44,58 @@ public class StudnetRegistration implements ActionListener {
         firstname.setFont(new Font(null, Font.PLAIN, 15));
         
         firstnameTF = new JTextField();
-        firstnameTF.setBounds(120, 27, 120, 25);
+        firstnameTF.setBounds(105, 27, 120, 25);
         firstnameTF.setFont(new Font(null, Font.PLAIN, 15));        
 
         lastname = new JLabel("Last Name: ");
+        lastname.setBounds(270, 20, 100, 40);
+        lastname.setFont(new Font(null, Font.PLAIN, 15));
+
         lastnameTF = new JTextField();
+        lastnameTF.setBounds(350, 27, 120, 25);
+        lastnameTF.setFont(new Font(null, Font.PLAIN, 15));
 
         studnetID = new JLabel("Student ID:");
+        studnetID.setBounds(25, 90, 100, 40);
+        studnetID.setFont(new Font(null, Font.PLAIN, 15));        
+
         studentIdTF = new JTextField();
+        studentIdTF.setBounds(105, 98, 120, 25);
+        studentIdTF.setFont(new Font(null, Font.PLAIN, 15)); 
 
         phone = new JLabel("Phone No: ");
+        phone.setBounds(25, 160, 100, 40);
+        phone.setFont(new Font(null, Font.PLAIN, 15));  
+        
+
         phoneTF = new JTextField();
+        phoneTF.setBounds(105, 168, 120, 25);
+        phoneTF.setFont(new Font(null, Font.PLAIN, 15)); 
 
         address = new JLabel("Address:");
+        address.setBounds(25, 230, 100, 40);
+        address.setFont(new Font(null, Font.PLAIN, 15));   
+
         addresTF = new JTextField();
+        addresTF.setBounds(105, 238, 120, 25);
+        addresTF.setFont(new Font(null, Font.PLAIN, 15)); 
 
         gender = new JLabel("Gender: ");
+        gender.setBounds(270, 90, 100, 40);
+        gender.setFont(new Font(null, Font.PLAIN, 15));
+
+
         genderPick = new JComboBox<>(new Object[] {"Male", "Gender"});
+        genderPick.setBounds(350, 98, 120, 30);
+        genderPick.setFont(new Font(null, Font.PLAIN, 15));
 
         level = new JLabel("Level: ");
+        level.setBounds(270, 160, 100, 40);
+        level.setFont(new Font(null, Font.PLAIN, 15));
+
         levelPick = new JComboBox<>(new Object[] {"Part 1", "Part 2", "Part 3", "Part 4", "Part 5"});
+        levelPick.setBounds(350, 168, 120, 30);
+        levelPick.setFont(new Font(null, Font.PLAIN, 15));
 
         form.add(firstname);
         form.add(firstnameTF);
