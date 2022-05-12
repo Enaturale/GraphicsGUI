@@ -64,6 +64,11 @@ public class Dashboard implements ActionListener {
         frame.dispose();
 
         }
+
+        if(e.getSource() == teacher){
+            TeachersPage teacherspage = new TeachersPage();
+            frame.dispose();
+        }
         
     }    
 }

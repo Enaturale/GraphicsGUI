@@ -85,7 +85,7 @@ public class StudnetRegistration implements ActionListener {
         gender.setFont(new Font(null, Font.PLAIN, 15));
 
 
-        genderPick = new JComboBox<>(new Object[] {"Male", "Gender"});
+        genderPick = new JComboBox<>(new Object[] {"Male", "Female"});
         genderPick.setBounds(350, 98, 120, 30);
         genderPick.setFont(new Font(null, Font.PLAIN, 15));
 

@@ -13,7 +13,7 @@ public class App {
 
         }
 
-        Dashboard dashboard = new Dashboard();
+        Login login = new Login();
         splashscreen.frame.dispose();
     }
 }

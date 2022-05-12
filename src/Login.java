@@ -3,7 +3,9 @@ import javax.swing.*;
 import java.awt.event.*;
 
 public class Login implements ActionListener{    
-    public static void main(String[] args) {
+
+   
+    Login(){
         JFrame frame = new JFrame("Login");
         frame.setSize(500, 300);
         frame.setLocationRelativeTo(null);
@@ -59,7 +61,7 @@ public class Login implements ActionListener{
         
         
 
-        
+    
        
     }
 
@@ -69,4 +71,5 @@ public class Login implements ActionListener{
         
     }
     
+
 }
